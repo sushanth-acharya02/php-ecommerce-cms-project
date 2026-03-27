@@ -1,0 +1,22 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+ErrorDocument 404 /404-page.html
+
+RewriteRule ^cms/(.*)$ cms/$1 [PT,L]
+
+RewriteRule ^$ index.php [L]
+RewriteRule ^home.htm$ index.php [L]
+RewriteRule ^login.htm$ login.php [L]
+RewriteRule ^register.htm$ register.php [L] 
+RewriteRule ^logout.htm$ logout.php [L]
+
+
+RewriteRule ^(.*)/(.*)/(.*)/(.*).htm$ product-details.php?cid=$1&scid=$2&sscid=$3&pid=$4 [L]
+
+RewriteRule ^(.*)/(.*)/(.*).htm$ category-product.php?cid=$1&scid=$2&sscid=$3 [L]
+RewriteRule ^(.*)/(.*).htm$ category-product.php?cid=$1&scid=$2 [L]
+RewriteRule ^(.*).htm$ category-product.php?cid=$1 [L]
+
+RewriteRule ^(.*).htm$ cart.php [L]
+RewriteRule ^(.*).htm$ add-to-cart.php?$id=$s1[L]

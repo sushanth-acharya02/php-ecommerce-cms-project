@@ -1,0 +1,257 @@
+
+body{
+    margin-top: 20px;
+    padding: 10px;
+}
+.logoContainer{
+	width:8%;
+}
+.logoContainer img{
+	width:100%;
+}
+
+.dropdown-submenu {
+	position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: 0;
+    border-radius: 0.25rem;
+    display: none;
+}
+
+.dropdown-submenu:hover .dropdown-menu {
+     display: block;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.loginContainer{
+	width:35% ;
+	margin:0 auto ;
+	background-color:#D3D3D3;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius:1%;
+	
+}
+.footerContainer{
+	padding-top: 25px;
+    border-top: 1px solid #000;
+}
+.footerList{
+	list-style:none;
+}
+.footerAddressHead{
+	font-size:18px;
+}
+.footeraddress p{
+	font-size:14px;
+}
+.footerLink h3{
+	font-size:18px;
+}
+.footerList li a{
+	text-decoration:none ;
+	color:#000000;
+}
+.socialIcons{
+	width:36% !important:
+}
+.socialIcons a{
+	color:#0000FF;
+	font-size: 22px;
+}
+.cartIcon{
+	color:#FFFFFF;
+}
+.footerRow{
+	border-bottom:1px solid #F3F3F3;
+}
+.copyright{
+	font-size:12px;
+}
+
+.cmsBannerContainer{
+	width:35% ;
+	margin:0 auto ;
+	background-color:#D3D3D3;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius:1%;
+}
+
+.tableList{
+	margin-top:5%;
+	width:100%;
+}
+
+th,td{
+	border:1px solid black;
+}
+
+.tabledata{
+	width:100%;
+}
+
+.imageBanner{
+	width:25%;
+}
+.imageBanner img{
+	width:100%;
+}
+
+.addBannerContainer{
+	width:12%;
+}
+
+.addBannerButton{
+	background-color: #0000FF;
+	width: 100%;
+	text-decoration:none;
+}
+
+.addBannerButton:hover{
+	background-color: #0000FF;
+}
+
+.addBannerButton a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+.bannerBackButton{
+	margin-right:3%;
+}
+
+.titleColourBox{
+	width:20px;
+	height: 20px;
+	margin: auto;
+}
+.buttonColourBox{
+	width:20px;
+	height: 20px;
+	margin: auto;
+}
+
+
+.cmsShoeColourContainer{
+	width:35% ;
+	margin:0 auto ;
+	background-color:#D3D3D3;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius:1%;
+}
+.tableActionContainer{
+	width:25%;
+}
+.shoeColourBox{
+	width:20px;
+	height: 20px;
+	margin: auto;
+}
+.shoeColourBackButton{
+	margin-right:3%;
+}
+
+.addColourButtonContainer{
+	width:12%;
+}
+.addColourButton{
+	background-color: #0000FF;
+	width: 100%;
+	text-decoration:none;
+}
+
+.addColourButton:hover{
+	background-color: #0000FF;
+}
+
+.addColourButton a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+.cmsCategoryContainer{
+	width:35% ;
+	margin:0 auto ;
+	background-color:#D3D3D3;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius:1%;
+}
+
+
+.addCategoryContainer{
+	width:12%;
+}
+
+.addCategoryButton{
+	background-color: #0000FF;
+	width: 100%;
+	text-decoration:none;
+}
+
+.addCategoryButton:hover{
+	background-color: #0000FF;
+}
+
+.addCategoryButton a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+.categoryActionContainer{
+	width:30%;
+}
+
+.imageCategory{
+	width:25%;
+}
+.imageCategory img{
+	width:100%;
+}
+
+.addProductContainer{
+	width:12%;
+}
+
+.addProductButton{
+	background-color: #0000FF;
+	width: 100%;
+	text-decoration:none;
+}
+
+.addProductButton:hover{
+	background-color: #0000FF;
+}
+
+.addProductButton a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+.cmsProductContainer{
+	width:40% ;
+	margin:0 auto ;
+	background-color:#D3D3D3;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius:1%;
+}
+
+.productColourBox{
+	width:20px;
+	height: 20px;
+	margin: auto;
+}
+
+.productImage{
+	width:25%;
+}
+
+.productImage img{
+	width:100%;
+}
