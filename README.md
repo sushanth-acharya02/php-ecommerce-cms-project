@@ -34,6 +34,10 @@ It includes both user-side functionality and an admin panel (CMS) for managing p
 
 ---
 
+## Database
+Database file is included as `ecommerce.sql`.
+
+
 ## ▶️ How to Run Project
 1. Install XAMPP
 2. Copy project folder into `htdocs`
